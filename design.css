@@ -1,0 +1,62 @@
+
+ body{
+  font-family: Arial;
+  background-color:rgb(26, 206, 206); 
+ }
+
+.navbar{
+  background-color:rgb(216, 240, 240); 
+  font-family: 'Calibri';
+  padding-left: 15px;
+  padding-right: 15px;
+  border-color:rgb(216, 240, 240); 
+  margin: 0%;
+}
+
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+li a{
+  color:gold;
+  font-size: 125%;
+  font-weight: bold;
+  margin-right:3cap;
+  border-width:thick;
+  border-style: solid;
+  border-color:darkcyan;
+  background-color: darkcyan;
+  border-radius: 1cap;
+  border-width: 1cap;
+}
+
+h1{
+  background-color: blue;
+  color: white;
+  font-weight: normal;
+  height:max-content;
+  width:fit-content;
+  border-style: solid;
+  border-color:blue;
+  border-width:1.25 ch;
+  border-radius:1cap;
+}
+
+
+
+div#contacts{
+  background-color: antiquewhite;
+  
+     
+}
