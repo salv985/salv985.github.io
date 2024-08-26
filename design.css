@@ -14,7 +14,7 @@ body{
 .navdiv{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-evenly;
   flex-wrap: wrap;
 }
 
@@ -29,6 +29,7 @@ li{
   list-style: none;
   display: inline-block;
   flex-grow: 2;
+  flex-shrink: 1;
 }
 li a{
   color:gold;
@@ -42,6 +43,30 @@ li a{
   border-width: 1cap;
   margin-right: 15px;
   margin-left:15px;
-  flex-grow: 1;
 }
 
+div#video_frame{
+  display: flex;
+  justify-content: space-between;
+}
+
+div#briefing_video{
+  height:200%;
+  width:200%;
+  flex-grow: 1;
+  flex-shrink:1;
+}
+
+div#video_title{
+  font-size: small;
+  flex-grow: 2;
+  
+  background-color: antiquewhite;
+  border-style: solid;
+  border-color: antiquewhite;
+  border-radius: 1cap;
+  height:fit-content;
+  width: 75%;
+  margin: 3%;
+  flex-wrap: wrap;
+}
