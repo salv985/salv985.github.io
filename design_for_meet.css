@@ -1,0 +1,47 @@
+body{
+    font-family: Arial;
+    background-color:rgb(26, 206, 206);
+  }
+  
+  .navbar{
+    background-color:rgb(216, 240, 240);
+    font-family: 'Calibri';
+    border-color:rgb(216, 240, 240);
+   
+  }
+  
+  
+  .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  
+  .logo{
+    font-size: 35px;
+    font-weight: 600;
+    flex-shrink: 3;
+    flex-grow:1;
+  }
+  li{
+    list-style: none;
+    display: inline-block;
+    flex-grow: 2;
+    flex-shrink: 1;
+  }
+  li a{
+    color:gold;
+    font-size: 125%;
+    font-weight: bold;
+    border-width:thick;
+    border-style: solid;
+    border-color:darkcyan;
+    background-color: darkcyan;
+    border-radius: 1cap;
+    border-width: 1cap;
+    margin-right: 15px;
+    margin-left:15px;
+  }
+  
